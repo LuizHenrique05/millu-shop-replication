@@ -1,30 +1,39 @@
 import { DollarSign, FileText, BarChart3, Clock } from "lucide-react";
 
+import { Gift } from "lucide-react";
+
 const cards = [
   {
     icon: DollarSign,
-    label: "Investimento inicial estimado",
-    sublabel: "A partir de",
-    value: "sob consulta",
-    note: "*O valor do investimento pode variar conforme formato, praça, estrutura e modelo da operação.",
+    label: "Investimento inicial",
+    sublabel: "Loja a partir de 60m²",
+    value: "R$ 190.000",
+    note: "*O valor do investimento pode variar conforme formato, praça, estrutura e modelo da operação. Primeiro estoque incluso.",
   },
   {
     icon: FileText,
     label: "Taxa de franquia",
-    sublabel: "Condição",
-    value: "sob análise",
+    sublabel: "Valor fixo",
+    value: "R$ 50.000",
   },
   {
     icon: BarChart3,
-    label: "Potencial de operação",
-    sublabel: "Modelo pensado para",
-    value: "expansão estruturada",
+    label: "Margem de lucro",
+    sublabel: "Estimativa",
+    value: "22%",
   },
   {
     icon: Clock,
-    label: "Retorno estimado",
-    sublabel: "Informações fornecidas",
-    value: "durante o processo",
+    label: "Prazo de retorno",
+    sublabel: "Prazo médio estimado",
+    value: "12 meses",
+  },
+  {
+    icon: Gift,
+    label: "Primeiro estoque",
+    sublabel: "Benefício exclusivo",
+    value: "incluso",
+    note: "O franqueado recebe o primeiro estoque completo para iniciar a operação.",
   },
 ];
 

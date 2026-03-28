@@ -2,12 +2,12 @@ import { Eye, Star, TrendingUp, ShoppingBag, Heart, Rocket } from "lucide-react"
 import modelGlasses from "@/assets/model-glasses.jpg";
 
 const cards = [
-  { icon: Star, title: "Marca com identidade visual forte" },
-  { icon: Heart, title: "Posicionamento feminino e atual" },
-  { icon: ShoppingBag, title: "Produtos com apelo comercial" },
-  { icon: TrendingUp, title: "Segmento óptico com alta demanda" },
-  { icon: Eye, title: "Experiência de marca conectada à consumidora moderna" },
-  { icon: Rocket, title: "Oportunidade de expansão com posicionamento visual diferenciado" },
+  { icon: Star, title: "Fature com uma ótica de marca própria" },
+  { icon: ShoppingBag, title: "Operação simples e alto giro de produto" },
+  { icon: Rocket, title: "Expansão nacional — entre cedo na rede" },
+  { icon: TrendingUp, title: "Margem acima da média do mercado" },
+  { icon: Eye, title: "Invista menos e recupere mais rápido" },
+  { icon: Heart, title: "Modelo pronto e suporte completo" },
 ];
 
 const AuthorityCards = () => {

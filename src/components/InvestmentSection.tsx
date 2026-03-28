@@ -47,7 +47,7 @@ const InvestmentSection = () => {
           com uma proposta alinhada ao perfil de cada oportunidade.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
           {cards.map((card, i) => (
             <div key={i} className="card-millu p-6 text-center bg-pink-light border border-border flex flex-col items-center">
               <div className="w-16 h-16 rounded-full gradient-primary flex items-center justify-center mb-4">

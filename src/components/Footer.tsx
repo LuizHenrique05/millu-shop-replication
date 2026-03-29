@@ -3,34 +3,6 @@ import { Instagram, Facebook, Linkedin, Youtube, Mail } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-foreground text-primary-foreground">
-      {/* Newsletter */}
-      <div className="border-b border-graphite">
-        <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row items-center justify-center gap-6">
-          <h3 className="font-display text-xl md:text-2xl font-bold text-center">
-            Assine a newsletter da <span className="text-primary">Millu Shop</span>
-          </h3>
-          <div className="flex gap-3 w-full md:w-auto max-w-md">
-            <input
-              type="email"
-              placeholder="Seu e-mail"
-              className="flex-1 px-4 py-3 rounded-full bg-graphite text-primary-foreground font-body text-sm border border-graphite-light/30 focus:outline-none focus:ring-2 focus:ring-primary/50"
-            />
-            <button className="btn-franchise whitespace-nowrap">Assinar</button>
-          </div>
-        </div>
-      </div>
-
-      {/* Legal text */}
-      <div className="border-b border-graphite">
-        <div className="container mx-auto px-4 py-6">
-          <p className="font-body text-xs text-graphite-light leading-relaxed text-center max-w-3xl mx-auto">
-            Ao informar seu e-mail, você concorda em receber comunicações da Millu Shop. 
-            Seus dados serão tratados de acordo com a nossa Política de Privacidade. 
-            Você pode cancelar a assinatura a qualquer momento.
-          </p>
-        </div>
-      </div>
-
       {/* Sitemap */}
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">

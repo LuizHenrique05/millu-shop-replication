@@ -7,9 +7,9 @@ const Header = () => {
           <span className="font-display text-2xl font-bold text-secondary">SHOP</span>
         </a>
         <nav className="hidden md:flex items-center gap-6 font-body text-sm font-medium tracking-wide uppercase text-foreground">
-          <a href="#" className="hover:text-primary transition-colors">Encontre uma Millu</a>
+          <a href="#colecoes" className="hover:text-primary transition-colors">Encontre uma Millu</a>
           <span className="text-border">|</span>
-          <a href="#" className="hover:text-primary transition-colors">Fale conosco</a>
+          <a href="#footer" className="hover:text-primary transition-colors">Fale conosco</a>
           <span className="text-border">|</span>
           <a href="#formulario" className="hover:text-primary transition-colors">Seja um franqueado</a>
         </nav>

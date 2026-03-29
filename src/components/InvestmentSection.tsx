@@ -39,7 +39,7 @@ const cards = [
 
 const InvestmentSection = () => {
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section id="investimento" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="section-title">Investimento</h2>
         <p className="section-subtitle mb-12">

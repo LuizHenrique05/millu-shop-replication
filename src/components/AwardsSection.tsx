@@ -13,7 +13,7 @@ const AwardsSection = () => {
   return (
     <section className="py-16 md:py-24 bg-pink-light">
       <div className="container mx-auto px-4">
-        <h2 className="section-title mb-12">Nossos prêmios</h2>
+        <h2 className="section-title mb-12">Diferenciais da marca</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 max-w-5xl mx-auto">
           {awards.map((award, i) => (
             <div key={i} className="flex flex-col items-center text-center gap-3 p-4">

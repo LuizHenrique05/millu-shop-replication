@@ -1,43 +1,35 @@
 import franquiaRua from "@/assets/franquia-rua.jpg";
-import franquiaShopping from "@/assets/franquia-shopping.jpg";
-import franquiaGaleria from "@/assets/franquia-galeria.jpg";
-import franquiaMercado from "@/assets/franquia-mercado.jpg";
-
-const models = [
-  { img: franquiaRua, label: "Rua" },
-  { img: franquiaShopping, label: "Shopping" },
-  { img: franquiaGaleria, label: "Galeria" },
-  { img: franquiaMercado, label: "Mercado" },
-];
 
 const FranchiseModels = () => {
   return (
     <section className="py-16 md:py-24 bg-pink-light">
       <div className="container mx-auto px-4">
-        <h2 className="section-title mb-4">Modelos de franquias</h2>
+        <h2 className="section-title mb-4">Modelo de franquia</h2>
         <p className="section-subtitle mb-12">
-          A Franquia Millu Shop oferece diferentes opções de negócios para atender a variados 
-          perfis de investidores e mercados. Você pode abrir sua franquia em locais estratégicos, como:
+          A Franquia Millu Shop opera no formato de loja de rua, pensado para oferecer
+          proximidade com a consumidora, visibilidade de marca e uma experiência de compra
+          acolhedora e acessível.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-          {models.map((model, i) => (
-            <div key={i} className="card-millu overflow-hidden group">
-              <div className="overflow-hidden">
-                <img
-                  src={model.img}
-                  alt={`Franquia ${model.label}`}
-                  loading="lazy"
-                  width={640}
-                  height={640}
-                  className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-4 text-center">
-                <h4 className="font-display text-xl font-bold text-foreground">{model.label}</h4>
-              </div>
+        <div className="max-w-lg mx-auto">
+          <div className="card-millu overflow-hidden group">
+            <div className="overflow-hidden">
+              <img
+                src={franquiaRua}
+                alt="Franquia de Rua Millu Shop"
+                loading="lazy"
+                width={640}
+                height={640}
+                className="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
             </div>
-          ))}
+            <div className="p-6 text-center">
+              <h4 className="font-display text-2xl font-bold text-foreground mb-2">Loja de Rua</h4>
+              <p className="font-body text-sm text-muted-foreground">
+                Formato ideal para alta visibilidade e fluxo orgânico de clientes, com operação a partir de 60m².
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

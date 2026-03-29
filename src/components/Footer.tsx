@@ -2,7 +2,7 @@ import { Instagram, Facebook, Linkedin, Youtube, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-foreground text-primary-foreground">
+    <footer id="footer" className="bg-foreground text-primary-foreground">
       {/* Sitemap */}
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">

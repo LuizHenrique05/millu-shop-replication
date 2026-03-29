@@ -2,7 +2,7 @@ import marcasModelos from "@/assets/marcas-modelos.jpg";
 
 const BrandsSection = () => {
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section id="colecoes" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="section-title mb-12">Coleções exclusivas</h2>
 

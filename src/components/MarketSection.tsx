@@ -2,7 +2,7 @@ import mercadoOtico from "@/assets/mercado-otico.jpg";
 
 const MarketSection = () => {
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section id="mercado" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="section-title mb-12">O mercado óptico</h2>
 
